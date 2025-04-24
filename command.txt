@@ -1,0 +1,17 @@
+cd Documents
+mkdir curso-git-embarcatech
+cd curso-git-embarcatech/
+git init
+git config --global user.name "name"
+git config --global user.email "email"
+nano informations.txt
+git add .
+git commit -m "primeiro commit"
+git status
+git remote add origin/github https://github.com/joaovitor73/curso-git-embarcatech.git
+git remote -v
+git push -u origin/gitHub main
+nano command.txt
+git add .
+git commit -m "segundo commit"
+git push -u origin/GitHub main
